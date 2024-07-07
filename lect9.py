@@ -1,0 +1,11 @@
+a,b,c=1,2,3
+print(a,b,c) 
+a=5
+print(a<=a)
+b=5
+print(a==b)
+a,b=2,3
+c=a+b#5
+a+=2#4
+c+=a#5+4
+print(c)
